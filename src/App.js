@@ -17,19 +17,22 @@ function App() {
     <div
       className="App"
       style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "white" : "",
-      
+        background:"var(--background-color)",
       }}
     >
       <div style={{margin:"0 100px 0 100px"}}>
       <Navbar />
       <Intro />
+      <hr/>
       <Services />
+      <hr/>
       {/* <Experience /> */}
       <Works />
+      <hr/>
       <Portfolio />
+      <hr/>
       <Testimonial />
+      <hr/>
       <Contact />
      
 

@@ -20,16 +20,16 @@ const Services = () => {
   };
 
   return (
-    <div className="services" id="services" style={{marginLeft:"50px"}}>
+    <div className="services" id="services" style={{marginLeft:"0px"}}>
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        <span style={{ color: darkMode ? "white" : "" ,fontSize:"4rem"}}>My Awesome</span>
+        <span >services</span>
+        <spane style={{fontSize:"1rem"}}>
+        ⭐️ Are you a business owner, an entrepreneur, or someone who needs help<br /> with a personal project? You might be looking for design support, custom brand,<br /> or new and exciting content for your marketing materials. Whoever you are, you've <br />found the right person! I help clients like you reach the goals they've set for themselves <br />and their businesses.⭐️
           <br />
-          ispum is simpley dummy text of printing
+       
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -61,7 +61,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Flutter"}
+            detail={"Html5, Css3, Sass, JavaScript, React, Flutter"}
           />
        
         </motion.div>
@@ -75,7 +75,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Figma,Adobe Illustrator, Adobe xd"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

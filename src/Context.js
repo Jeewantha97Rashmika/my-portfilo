@@ -1,6 +1,18 @@
 import { createContext, useReducer } from "react";
 
-export const themeContext = createContext();
+
+const theme ={
+  light:{
+    foreground:"#000000",
+    background:"#215BCF"
+  },
+  dark:{
+    foreground:"#D32626",
+    background:"#AD5050"
+  }
+}
+
+export const themeContext = createContext(theme);
 
 const initialState = { darkMode: false };
 

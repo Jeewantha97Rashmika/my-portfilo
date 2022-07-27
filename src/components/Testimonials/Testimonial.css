@@ -21,12 +21,14 @@
 }
 
 .t-blur1{
-    left: 38rem;
+    left: 58rem;
     top: 16rem;
+    opacity: 0.8;
 }
 .t-blur2{
-    top: 9rem;
-    left: 0;
+    top: 3rem;
+    left: -3rem;
+    opacity: 0.2;
 }
 .testimonial{
     display: flex;

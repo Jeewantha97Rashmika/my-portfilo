@@ -20,7 +20,7 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
+          <span style={{ color: darkMode ? "white" : "" , fontSize:"4rem"}}>
             Works for All these
           </span>
           <span>Brands & Clients</span>
@@ -47,7 +47,7 @@ const Works = () => {
       </div>
       <div className="w-right">
         <motion.div
-          initial={{ rotate: 45 }}
+          initial={{ rotate: 360 }}
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
           transition={{ duration: 3.5, type: "spring" }}
@@ -70,8 +70,8 @@ const Works = () => {
           </div>
         </motion.div>
         {/* background Circles */}
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
+        {/* <div className="w-backCircle blueCircle"></div>
+        <div className="w-backCircle yellowCircle"></div> */}
       </div>
     </div>
   );
