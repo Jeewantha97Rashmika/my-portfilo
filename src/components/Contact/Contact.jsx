@@ -38,10 +38,10 @@ const Contact = () => {
           {/* darkMode */}
           <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
           <span>Contact me</span>
-          <div
+          {/* <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
-          ></div>
+          ></div> */}
         </div>
       </div>
       {/* right side form */}
@@ -52,10 +52,10 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
-          <div
+          {/* <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
-          ></div>
+          ></div> */}
         </form>
       </div>
     </div>

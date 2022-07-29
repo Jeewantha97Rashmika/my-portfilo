@@ -32,9 +32,9 @@ const Services = () => {
        
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button style={{width:"9rem"}}className="button s-button">Download CV</button>
         </a>
-        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+        {/* <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div> */}
       </div>
 
 
@@ -61,7 +61,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html5, Css3, Sass, JavaScript, React, Flutter"}
+            detail={"HTML5, CSS3, SASS, JavaScript, React,NextJs, Flutter"}
           />
        
         </motion.div>
@@ -80,10 +80,10 @@ const Services = () => {
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
-        <div
+        {/* <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
-        ></div>
+        ></div> */}
       </div>
     </div>
   );

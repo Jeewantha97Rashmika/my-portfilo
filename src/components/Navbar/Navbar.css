@@ -4,13 +4,14 @@
   justify-content: space-between;
   margin-bottom: 2rem;
   top: 0;
+ 
 }
 .n-left {
   flex: 1;
   align-items: center;
   justify-content: left;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .n-name {
@@ -37,6 +38,7 @@
 .n-list > ul :hover {
   color: var(--orange);
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .n-button {

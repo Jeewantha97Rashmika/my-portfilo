@@ -23,16 +23,16 @@ function App() {
       <div style={{margin:"0 100px 0 100px"}}>
       <Navbar />
       <Intro />
-      <hr/>
+
       <Services />
-      <hr/>
+     
       {/* <Experience /> */}
       <Works />
-      <hr/>
+ 
       <Portfolio />
-      <hr/>
+
       <Testimonial />
-      <hr/>
+
       <Contact />
      
 

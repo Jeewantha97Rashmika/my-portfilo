@@ -37,10 +37,10 @@ const Works = () => {
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
-          <div
+          {/* <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
-          ></div>
+          ></div> */}
         </div>
 
         {/* right side */}

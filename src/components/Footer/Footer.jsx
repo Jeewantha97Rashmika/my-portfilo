@@ -16,6 +16,7 @@ const Footer = () => {
           <Facebook color="white" size={"3rem"} />
           <Gitub color="white" size={"3rem"} />
         </div>
+        <span>jeewantharashmika80@gmail.com</span>
       </div>
     </div>
   );
