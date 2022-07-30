@@ -14,6 +14,7 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import TyprText from "./TypeText";
+import BackgroundAnimation from "../BackgroundAnimation";
 
 const Intro = () => {
   
@@ -26,9 +27,12 @@ const Intro = () => {
 
   return (
     <div className="Intro" id="Intro">
+      
       {/* left name side */}
       <div className="i-left">
+        
         <div className="i-name">
+          
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span> <TyprText/></span>
@@ -43,7 +47,7 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/Jeewantha97Rashmika"> <img src={Github} alt="" /> </a>
+          <a href="https://github.com/Jeewantha97Rashmika"> <img src={Github} style={{colorRendering:"black"}} alt="" /> </a>
           <a href="https://www.linkedin.com/in/jeewanatha-rashmika-b5a56820a/">
             <img src={LinkedIn} alt="" />
             
@@ -57,10 +61,13 @@ const Intro = () => {
 
 
       {/* right image side */}
+      <>
+      
       <div className="i-right">
+     
         <img src={""} alt="" />
         <img src={""} alt="" />
-        <img src={boy} alt="" style={{right:0, width:390, height:390}} />
+        <img src={boy} alt="" style={{right:0, width:390, height:390 , borderRadius:"50%",border:"8px solid white"}} />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
@@ -68,14 +75,14 @@ const Intro = () => {
           transition={transition}
           src={""}
           alt=""
-        />
+          />
          <motion.div
           initial={{ top: "-4%", left: "-24%" }}
           whileInView={{ left: "1%" }}
           transition={transition}
           className="floating-div"
-         
-        >
+          
+          >
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
 
@@ -85,7 +92,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Graphic" text2="Designer" />
+          <FloatinDiv img={thumbup} text1="Graphic" text2="Designer" />
         </motion.div>
 
         <motion.div
@@ -93,7 +100,7 @@ const Intro = () => {
           whileInView={{ left: "70%" ,top:"50%"}}
           transition={transition}
           className="floating-div"
-        >
+          >
           <FloatinDiv img={crown} text1="Flutter" text2="Developer" />
         </motion.div>
 
@@ -102,8 +109,8 @@ const Intro = () => {
         <motion.div
         initial={{ top: "54%", left: "-24%" }}
         whileInView={{ left: "1%" }}
-          transition={transition}
-          className="floating-div"
+        transition={transition}
+        className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="UI/UX " text2="Designer" />
@@ -111,16 +118,17 @@ const Intro = () => {
 
         {/* <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div
-          className="blur"
-          style={{
-            background: "#C1F5FF",
-            top: "17rem",
-            width: "21rem",
-            height: "11rem",
-            left: "-9rem",
-          }}
+        className="blur"
+        style={{
+          background: "#C1F5FF",
+          top: "17rem",
+          width: "21rem",
+          height: "11rem",
+          left: "-9rem",
+        }}
         ></div> */}
       </div>
+        </>
     </div>
   );
 };

@@ -19,21 +19,21 @@ const Title = styled.h2`
   }
 
   .text-1 {
-    color: var(--orange);
+    color:  #C6C6C9;
   }
   .text-2 {
-    color: #00AFDB;;
+    color: #12025A;
   }
 
   .text-3 {
-    color: #B9296D;;
+    color: #7A08D8;
   }
   .text-4 {
-    color: #00AFDB;;
+    color: #F19E02;
   }
 
   .text-5 {
-    color: #FF77B7;;
+    color: #300A77;
   }
 `;
 

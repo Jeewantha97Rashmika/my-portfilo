@@ -33,10 +33,11 @@
   display: flex;
   gap: 2rem;
   margin-right: 4rem;
+  color:  #f2f2f37e;
 }
 
 .n-list > ul :hover {
-  color: var(--orange);
+  color:  #f6f6fc;
   cursor: pointer;
   transform: scale(1.1);
 }

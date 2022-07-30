@@ -8,18 +8,15 @@
   align-items: center;
   width: 10rem;
   text-align: center;
-  background: rgba(255, 153, 0, 0.384);
-  
+  background: rgba(120, 120, 124, 0.384);
+  border: 5px solid rgba(255, 255, 255, 0.329);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
   padding: 0px 26px 2rem 26px;
 }
-.card:before,
-.card:before{
-  background: linear-gradient(300deg,#49bce0,#100940,#f8c420);
-}
+
 .card span:nth-of-type(2) {
-  color: var(--gray);
+  color:  #f8f8f8c5;
   font-size: 16px;
 }
 .card > img {

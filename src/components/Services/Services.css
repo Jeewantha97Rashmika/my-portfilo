@@ -17,7 +17,7 @@
 }
 
 .awesome > :nth-child(1) {
-  color: var(--black);
+  color: #f1ebeb;
   font-size: 7.5rem;
   font-weight: bold;
 }
