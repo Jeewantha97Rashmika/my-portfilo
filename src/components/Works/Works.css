@@ -1,5 +1,5 @@
 .works {
-  padding: 0 3rem 0 3rem;
+  
   display: flex;
   height: 90vh;
   margin-top: 4rem;
@@ -38,6 +38,7 @@
 /* right side */
 .w-right {
   position: relative;
+  margin-left: 8rem;
 }
 
 .w-mainCircle {
@@ -45,10 +46,11 @@
   position: relative;
   width: 18rem;
   height: 18rem;
+  border: "5px solid white";
   border-radius: 100%;
   box-shadow: var(--smboxShadow);
   top: 2rem;
-  background: white;
+  background: rgb(255, 255, 255);
   /* darkMode */
   z-index: 2;
 }
@@ -58,6 +60,7 @@
 .w-mainCircle > :nth-child(1) {
   top: -3rem;
   left: 6rem;
+ 
 }
 .w-mainCircle > :nth-child(2) {
   left: -3rem;

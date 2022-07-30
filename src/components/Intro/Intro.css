@@ -11,6 +11,7 @@
   flex: 1;
   flex-direction: column;
   gap: 2rem;
+  margin-top: -3rem;
 }
 .i-name {
   display: flex;
@@ -38,7 +39,7 @@
   height: 2rem;
 }
 .i-icons {
-  margin-top: 3rem;
+  margin-top: 5.8rem;
   display: flex;
   gap: 0rem;
   ;

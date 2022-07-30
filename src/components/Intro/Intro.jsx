@@ -17,7 +17,6 @@ import TyprText from "./TypeText";
 import BackgroundAnimation from "../BackgroundAnimation";
 
 const Intro = () => {
-  
   // Transition
   const transition = { duration: 2, type: "spring" };
 
@@ -26,17 +25,21 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="Intro" id="Intro">
-      
+    <div className="Intro" id="Intro" >
+     <>
+     <BackgroundAnimation />
+
+     </> 
       {/* left name side */}
-      <div className="i-left">
-        
-        <div className="i-name">
-          
+      <div className="i-left" >
+        <div className="i-name" >
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span> <TyprText/></span>
-       
+          <span>
+            {" "}
+            <TyprText />
+          </span>
+
           <span>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
@@ -46,77 +49,95 @@ const Intro = () => {
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
+        <div>
+
+        <p>
+          <img
+            align="left"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=jeewantha97rashmika&show_icons=true&locale=en&layout=compact"
+            alt="jeewantha97rashmika"
+            
+            />
+        </p>
         <div className="i-icons">
-          <a href="https://github.com/Jeewantha97Rashmika"> <img src={Github} style={{colorRendering:"black"}} alt="" /> </a>
+          <a href="https://github.com/Jeewantha97Rashmika">
+            {" "}
+            <img src={Github} style={{ colorRendering: "black" }} alt="" />{" "}
+          </a>
           <a href="https://www.linkedin.com/in/jeewanatha-rashmika-b5a56820a/">
             <img src={LinkedIn} alt="" />
-            
-            </a>
+          </a>
           <a href="">
-            
             <img src={Instagram} alt="" />
-            </a>
+          </a>
         </div>
+      
+            </div>
       </div>
-
 
       {/* right image side */}
       <>
-      
-      <div className="i-right">
-     
-        <img src={""} alt="" />
-        <img src={""} alt="" />
-        <img src={boy} alt="" style={{right:0, width:390, height:390 , borderRadius:"50%",border:"8px solid white"}} />
-        {/* animation */}
-        <motion.img
-          initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
-          transition={transition}
-          src={""}
-          alt=""
+        <div className="i-right">
+          <img src={""} alt="" />
+          <img src={""} alt="" />
+          <img
+            src={boy}
+            alt=""
+            style={{
+              right: 0,
+              width: 390,
+              height: 390,
+              borderRadius: "50%",
+              border: "8px solid white",
+            }}
           />
-         <motion.div
-          initial={{ top: "-4%", left: "-24%" }}
-          whileInView={{ left: "1%" }}
-          transition={transition}
-          className="floating-div"
-          
+          {/* animation */}
+          <motion.img
+            initial={{ left: "-36%" }}
+            whileInView={{ left: "-24%" }}
+            transition={transition}
+            src={""}
+            alt=""
+          />
+          <motion.div
+            initial={{ top: "-4%", left: "-24%" }}
+            whileInView={{ left: "1%" }}
+            transition={transition}
+            className="floating-div"
           >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
-        </motion.div>
+            <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          </motion.div>
 
-        <motion.div
-          initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
-          transition={transition}
-          className="floating-div"
-        >
-          <FloatinDiv img={thumbup} text1="Graphic" text2="Designer" />
-        </motion.div>
-
-        <motion.div
-          initial={{ top: "54%", left: "74%" }}
-          whileInView={{ left: "70%" ,top:"50%"}}
-          transition={transition}
-          className="floating-div"
+          <motion.div
+            initial={{ top: "-4%", left: "74%" }}
+            whileInView={{ left: "68%" }}
+            transition={transition}
+            className="floating-div"
           >
-          <FloatinDiv img={crown} text1="Flutter" text2="Developer" />
-        </motion.div>
+            <FloatinDiv img={thumbup} text1="Graphic" text2="Designer" />
+          </motion.div>
 
+          <motion.div
+            initial={{ top: "54%", left: "74%" }}
+            whileInView={{ left: "70%", top: "50%" }}
+            transition={transition}
+            className="floating-div"
+          >
+            <FloatinDiv img={crown} text1="Flutter" text2="Developer" />
+          </motion.div>
 
-        {/* animation */}
-        <motion.div
-        initial={{ top: "54%", left: "-24%" }}
-        whileInView={{ left: "1%" }}
-        transition={transition}
-        className="floating-div"
-        >
-          {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="UI/UX " text2="Designer" />
-        </motion.div>
+          {/* animation */}
+          <motion.div
+            initial={{ top: "54%", left: "-24%" }}
+            whileInView={{ left: "1%" }}
+            transition={transition}
+            className="floating-div"
+          >
+            {/* floatinDiv mein change hy dark mode ka */}
+            <FloatinDiv img={thumbup} text1="UI/UX " text2="Designer" />
+          </motion.div>
 
-        {/* <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+          {/* <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div
         className="blur"
         style={{
@@ -127,8 +148,8 @@ const Intro = () => {
           left: "-9rem",
         }}
         ></div> */}
-      </div>
-        </>
+        </div>
+      </>
     </div>
   );
 };

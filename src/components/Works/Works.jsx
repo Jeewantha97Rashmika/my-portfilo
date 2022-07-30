@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -20,7 +20,7 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" , fontSize:"4rem"}}>
+          <span style={{ color: "wheat", fontSize: "4rem" }}>
             Works for All these
           </span>
           <span>Brands & Clients</span>
@@ -37,6 +37,7 @@ const Works = () => {
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
+          <div style={{ display: "flex" }}></div>
           {/* <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
