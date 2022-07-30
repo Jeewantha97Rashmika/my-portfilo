@@ -7,7 +7,7 @@ const Title = styled.h2`
  
   text-transform: capitalize;
   width: 80%;
-  color: ${(props) => props.theme.text};
+  color:  #C9C9C9;
   align-items: flex-start;
 
   span {
@@ -19,21 +19,21 @@ const Title = styled.h2`
   }
 
   .text-1 {
-    color:  #C6C6C9;
+    color: #C9C9C9;
   }
   .text-2 {
-    color: #12025A;
+    color: #C9C9C9;
   }
 
   .text-3 {
-    color: #7A08D8;
+    color: #C9C9C9;
   }
   .text-4 {
-    color: #F19E02;
+    color: #C9C9C9;
   }
 
   .text-5 {
-    color: #300A77;
+    color: #C9C9C9;
   }
 `;
 
