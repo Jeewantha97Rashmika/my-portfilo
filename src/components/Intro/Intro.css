@@ -30,7 +30,7 @@
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
-  font-size: 24px;
+  font-size: 18px;
   color: var(--gray);
   margin-top: 10px;
 }
@@ -66,10 +66,10 @@
   transform: scale(0.69);
   left: -15%;
   top: -9%;
-  background-color: aqua;
+ 
 }
 .i-right > :nth-child(2) {
-  top: -4.6rem;
+  top: -2.6rem;
   transform: scale(0.67);
   left: -3rem;
 }
@@ -108,17 +108,46 @@
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
+    margin-top: 5rem;
   }
 
+
+  .i-name > :nth-child(3) {
+
+    font-size: 1rem;
+    
+  }
+
+
   .i-right {
-    transform: scale(0.8);
-    left: -3rem;
+    transform: scale(0.6);
+    left: -4rem;
   }
-  .i-right .blur {
-    display: none;
-  }
+
   .floating-div:nth-of-type(1){
     /* display: none; */
-    top: -7rem !important;
+    top: 14rem !important;
+    left: 18rem !important;
+    
   }
+  .floating-div:nth-of-type(2){
+    /* display: none; */
+    top: 18rem !important;
+    left: 1rem !important;
+  }
+  .floating-div:nth-of-type(4){
+    /* display: none; */
+    top: 3rem !important;
+    left: 19rem !important;
+  }
+  .floating-div:nth-of-type(3){
+    /* display: none; */
+    top: 2rem !important;
+    left: 0rem !important;
+  }
+  .i-right{
+    margin-top: -12rem;
+  }
+  
+
 }

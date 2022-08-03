@@ -20,20 +20,16 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: "wheat", fontSize: "4rem" }}>
+          <span >
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          <span>
+          I have Working experience with client of these platforms
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+            more than 2 years working experience.
+          
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>

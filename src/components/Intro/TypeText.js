@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 const Title = styled.h2`
  
   text-transform: capitalize;
-  width: 80%;
+  width: 100%;
   color:  #C9C9C9;
   align-items: flex-start;
 
@@ -34,6 +34,14 @@ const Title = styled.h2`
 
   .text-5 {
     color: #C9C9C9;
+  }
+  @media screen and (max-width: 480px) {
+    span {
+   
+    font-size:1.6rem ;
+   
+   
+  }
   }
 `;
 

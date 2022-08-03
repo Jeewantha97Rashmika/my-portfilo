@@ -10,9 +10,6 @@ import Resume from "./Jeewantha Rashmika--CV.pdf";
 import Github from "../../img/github.png";
 
 const Services = () => {
-  // context
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
 
   // transition
   const transition = {
@@ -21,24 +18,17 @@ const Services = () => {
   };
 
   return (
-    <div className="services" id="services" style={{ marginLeft: "0px" }}>
+    <div className="services" id="services" >
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ fontSize: "4rem", color: "wheat" }}>My Awesome</span>
-        <span>services</span>
-        <spane style={{ fontSize: "1rem" }}>
-          ⭐️ Are you a business owner, an entrepreneur, or someone who needs
-          help
-          <br /> with a personal project? You might be looking for design
-          support, custom brand,
-          <br /> or new and exciting content for your marketing materials.
-          Whoever you are, you've <br />
-          found the right person! I help clients like you reach the goals
-          they've set for themselves <br />
-          and their businesses.⭐️
+        <span >My Technical skills</span>
+        <span >Tools And Technologies</span>
+        <span >
+        I believe that my passion is to use the latest technologies as they help us to ease projects,<br/> make them faster, and much better
+          
           <br />
-        </spane>
+        </span>
         <a href={Resume} download>
           <button style={{ width: "9rem" }} className="button s-button">
             Download CV

@@ -7,10 +7,10 @@ import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
 const Footer = () => {
   return (
-    <div className="footer" style={{height:"20rem"}} >
+    <div className="footer" style={{height:"15rem"}} >
       {/* <img src={Wave} alt="" style={{ width: "100%" }} /> */}
       <div className="f-content">
-        <span>jeewantharashmika80@gmail.com</span>
+       
         <div className="f-icons">
           <Insta color="white" size={"3rem"} />
           <Facebook color="white" size={"3rem"} />

@@ -10,6 +10,9 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+
+
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -17,26 +20,28 @@ function App() {
     <div
       className="App"
       style={{
-        background:"var(--background-color)",
+        background: "var(--background-color)",
       }}
     >
-      <div style={{margin:"0 100px 0 100px"}}>
-      <Navbar />
-      <Intro />
+      <div className="marginSection">
+        <Navbar />
+        <Intro />
 
-      <Services />
-     
-      {/* <Experience /> */}
-      <Works />
- 
-      <Portfolio />
+        <Services />
 
-      {/* <Testimonial /> */}
+        {/* <Experience /> */}
+        <Works />
 
-      <Contact />
-     
+        <Portfolio />
 
+        {/* <Testimonial /> */}
+
+        <Contact />
       </div>
+    <div style={{position:"absolute"}}>
+   
+    </div>
+        
       <Footer />
     </div>
   );

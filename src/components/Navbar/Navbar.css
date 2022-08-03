@@ -51,4 +51,8 @@
   .n-list {
     display: none;
   }
+ 
+  .n-wrapper{
+    padding-left: 0rem;
+  }
 }

@@ -2,7 +2,7 @@
 {
   --yellow: #ecc95f;
     --orange : #db9017;
-    --black : #242D49;
+    --black : #f1f1f3;
     --gray : #79797a;
     --white:#ffffff;
     --blueCard : #DDF8FE;
@@ -17,6 +17,10 @@
     padding: 0.5rem 3.5rem;
     overflow: hidden;
     color: var(--black);    
+}
+.marginSection{
+  margin: 0 100px 0 100px;
+ overflow: hidden;
 }
 
 .button {
@@ -37,8 +41,12 @@
   }
   @media screen and (max-width: 480px) {
     .App {
-      padding: 0.5rem 1rem;
+      padding: 0.5rem ;
+      
 
+    }
+    .marginSection{
+      margin: 0 10px 0 10px;
     }
   }
 

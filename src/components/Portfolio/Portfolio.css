@@ -38,3 +38,9 @@
   border-radius: 19px;
 }
 
+
+@media screen and (max-width: 480px) {
+ .portfolio{
+  display: none;
+ }
+}

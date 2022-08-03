@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
+
 import boy from "../../img/mypic02.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
@@ -14,7 +13,7 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import TyprText from "./TypeText";
-import BackgroundAnimation from "../BackgroundAnimation";
+
 
 const Intro = () => {
   // Transition
@@ -27,7 +26,7 @@ const Intro = () => {
   return (
     <div className="Intro" id="Intro" >
      <>
-     <BackgroundAnimation />
+     {/* <BackgroundAnimation /> */}
 
      </> 
       {/* left name side */}

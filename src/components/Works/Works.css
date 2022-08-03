@@ -21,12 +21,12 @@
 }
 .awesome > :nth-child(2) {
   color: var(--orange);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 1rem;
 }
 .s-button {
@@ -117,10 +117,12 @@
 
 @media screen and (max-width: 480px) {
   .works {
+    margin-top: 35rem;
     flex-direction: column;
     height: 55rem;
     padding: 0;
     gap: 5rem;
+    
   }
 
   .w-right {
@@ -128,12 +130,13 @@
     align-items: flex-start;
     justify-content:start;
     transform: scale(0.7);
+    left: -4.5rem!important;
   }
   .w-mainCircle{
     position: static;
   }
   .w-backCircle{
-    left: 8rem!important;
+    left: -5rem!important;
   }
 
 }
